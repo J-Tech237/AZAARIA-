@@ -37,7 +37,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Category Navigation */}
+      {/* Category igation */}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <nav className="flex justify-center space-x-8 text-sm font-medium">

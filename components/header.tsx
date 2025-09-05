@@ -58,27 +58,27 @@ export default function Header() {
           </div>
 
           {/* Right Actions - flex-1 for equal spacing */}
-          <div className="flex-1 flex items-center justify-end space-x-4">
+          <div className="flex-1 flex items-center justify-end space-x-0">
             <Button variant="ghost" size="sm" onClick={() => setIsSearchOpen(!isSearchOpen)}>
-              <Search className="h-5 w-5" />
-              <span className="hidden sm:inline ml-2 text-sm">{t('nav.search')}</span>
+              {/* <Search className="h-5 w-5" /> */}
+              <span className="hidden sm:inline ml-100 text-sm">{t('nav.search')}</span>
             </Button>
             <Link href="/login">
               <Button variant="ghost" size="sm">
-                <User className="h-5 w-5" />
-                <span className="hidden sm:inline ml-2 text-sm">{t('nav.login')}</span>
+                {/* <User className="h-5 w-5" /> */}
+                <span className="hidden sm:inline ml-100 text-sm">{t('nav.login')}</span>
               </Button>
             </Link>
             <Link href="/wishlist">
               <Button variant="ghost" size="sm">
-                <Heart className="h-5 w-5" />
-                <span className="hidden sm:inline ml-2 text-sm">{t('nav.wishlist')}</span>
+                {/* <Heart className="h-5 w-5" /> */}
+                <span className="hidden sm:inline ml-100 text-sm">{t('nav.wishlist')}</span>
               </Button>
             </Link>
             <Link href="/bag">
               <Button variant="ghost" size="sm">
-                <ShoppingBag className="h-5 w-5" />
-                <span className="hidden sm:inline ml-2 text-sm">{t('nav.bag')}</span>
+                {/* <ShoppingBag className="h-5 w-5" /> */}
+                <span className="hidden sm:inline ml-100 text-sm">{t('nav.bag')}</span>
               </Button>
             </Link>
             <LanguageSwitcher />
